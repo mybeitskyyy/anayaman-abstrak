@@ -22,7 +22,7 @@ const Footer = () => (
         </div>
         <div>
           <h4 style={{ color: 'white', marginBottom: '20px', fontFamily: 'Plus Jakarta Sans' }}>Hubungi Kami</h4>
-          <p style={{ display: 'flex', gap: '10px', marginBottom: '10px' }}><Mail size={18} /> halo@nusantara.id</p>
+          <p style={{ display: 'flex', gap: '10px', marginBottom: '10px' }}><Mail size={20} /> AnyamanAbstrak@nusantara.id</p>
         </div>
       </div>
       <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '20px', textAlign: 'center', fontSize: '0.9rem', color: '#888' }}>
