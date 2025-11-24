@@ -37,7 +37,7 @@ const Home = ({ favorites, toggleFav }) => {
         </div>
       </div>
 
-      <div className="container" style={{ marginTop: '-70px', position: 'relative', zIndex: 10 }}>
+      <div className="container mt-[-70px] relative z-10">
         <div className="filters">
           {regions.map((region) => (
             <button

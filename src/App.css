@@ -109,12 +109,16 @@ h4 {
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   padding: 1rem 0;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .dark .navbar {
   background: rgba(30, 30, 30, 0.8);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.navbar-hidden {
+  transform: translateY(-110%);
 }
 
 .nav-content {

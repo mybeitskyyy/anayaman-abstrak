@@ -6,10 +6,7 @@ const Favorites = ({ favorites, toggleFav }) => {
   const items = provincesData.filter((p) => favorites.includes(p.id));
 
   return (
-    <div
-      className="container"
-      style={{ paddingTop: '7rem', paddingBottom: '4rem' }}
-    >
+    <div className="container pt-28 pb-16">
       <h1 className="text-6xl mb-4 text-center">Favorit Saya</h1>
 
       {items.length === 0 ? (

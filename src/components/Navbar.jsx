@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { MapPin, Menu, X, Moon, Sun } from 'lucide-react';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [hidden, setHidden] = useState(false);
+    const lastY = useRef(window.scrollY || 0);
     const [dark, setDark] = useState(() => {
         const saved = localStorage.getItem('theme');
         return saved ? saved === 'dark' : false;
@@ -18,8 +20,25 @@ const Navbar = () => {
             localStorage.setItem('theme', 'light');
         }
     }, [dark]);
+
+    useEffect(() => {
+        const onScroll = () => {
+            if (isOpen) {
+                setHidden(false);
+                lastY.current = window.scrollY || 0;
+                return;
+            }
+            const y = window.scrollY || 0;
+            const goingDown = y > lastY.current;
+            const farEnough = y > 80;
+            setHidden(goingDown && farEnough);
+            lastY.current = y;
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        return () => window.removeEventListener('scroll', onScroll);
+    }, [isOpen]);
     return (
-        <nav className="navbar">
+        <nav className={`navbar ${hidden ? 'navbar-hidden' : ''}`}>
             <div className="container nav-content px-[15px]">
                 <Link to="/" className="logo">
                     <MapPin color="#C67C4E" size={28} fill="#C67C4E" strokeWidth={1} style={{ stroke: 'white' }} /> NUSANTARA
