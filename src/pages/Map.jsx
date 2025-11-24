@@ -1,4 +1,4 @@
-import React, { useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import 'leaflet/dist/leaflet.css';
@@ -53,6 +53,15 @@ const Map = () => {
   const [focusPoint, setFocusPoint] = useState(null);
   const list = useMemo(() => provincesData.filter(p => p.region === selected), [selected]);
 
+  const [tileDark, setTileDark] = useState(() => document.documentElement.classList.contains('dark'));
+
+  useEffect(() => {
+    const root = document.documentElement;
+    const obs = new MutationObserver(() => setTileDark(root.classList.contains('dark')));
+    obs.observe(root, { attributes: true, attributeFilter: ['class'] });
+    return () => obs.disconnect();
+  }, []);
+
   return (
     <div className="container" style={{ paddingTop: '7rem', paddingBottom: '4rem' }}>
       <h1 style={{ marginBottom: '1rem' }}>Peta Interaktif Indonesia</h1>
@@ -62,7 +71,7 @@ const Map = () => {
           <MapContainer center={regionView[selected].center} zoom={regionView[selected].zoom} scrollWheelZoom className="map-svg" style={{ borderRadius: 16 }}>
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              url={tileDark ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png' : 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'}
             />
             <FlyToRegion target={selected} />
             <FlyToPoint point={focusPoint} />

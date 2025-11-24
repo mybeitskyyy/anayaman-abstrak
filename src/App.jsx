@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import ProvinceDetail from './pages/ProvinceDetail';
 import About from './pages/About';
 import Map from './pages/Map';
+import Favorites from './pages/Favorites';
 
 const App = () => {
   const [favorites, setFavorites] = useState(() => {
@@ -22,6 +23,7 @@ const App = () => {
       <div style={{ minHeight: 'calc(100vh - 300px)' }}>
         <Routes>
           <Route path="/" element={<Home favorites={favorites} toggleFav={toggleFav} />} />
+          <Route path="/favorit" element={<Favorites favorites={favorites} toggleFav={toggleFav} />} />
           <Route path="/provinsi/:slug" element={<ProvinceDetail />} />
           <Route path="/about" element={<About />} />
           <Route path="/peta" element={<Map />} />

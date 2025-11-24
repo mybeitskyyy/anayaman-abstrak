@@ -55,6 +55,17 @@ const Navbar = () => {
                     >
                         Tentang
                     </NavLink>
+                    <NavLink
+                        to="/favorit"
+                        onClick={() => setIsOpen(false)}
+                        className={({ isActive }) =>
+                            `no-underline font-semibold transition-all py-2 rounded-full ${
+                                isActive ? 'text-amber-900' : 'text-amber-900/50'
+                            }`
+                        }
+                    >
+                        Favorit
+                    </NavLink>
                     {/* <a href="#footer" onClick={() => setIsOpen(false)}>Kontak</a> */}
                     <NavLink
                         to="/peta"

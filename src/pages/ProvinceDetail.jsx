@@ -19,6 +19,23 @@ const ProvinceDetail = () => {
 
   if (!data) return <div className="container" style={{ padding: '5rem' }}>Provinsi tidak ditemukan.</div>;
 
+  const getEmbedUrl = (url) => {
+    try {
+      const u = new URL(url);
+      if (u.hostname.includes('youtu.be')) {
+        const id = u.pathname.split('/').filter(Boolean).pop();
+        return `https://www.youtube.com/embed/${id}`;
+      }
+      if (u.hostname.includes('youtube.com')) {
+        const id = u.searchParams.get('v');
+        if (id) return `https://www.youtube.com/embed/${id}`;
+      }
+      return url;
+    } catch {
+      return url;
+    }
+  };
+
   const handleShare = async () => {
     const shareData = {
       title: `${data.name} • Nusantara`,
@@ -99,7 +116,7 @@ const ProvinceDetail = () => {
 
           <div className="article-card">
             <h2 className="section-title"><Shirt size={28} /> Pakaian Adat</h2>
-            <div className="clothing-container">
+            <div className="flex gap-8 items-center bg-[#FFF8F0] p-8 rounded-2xl border border-dashed" style={{ borderColor: 'var(--accent)' }}>
               {!clothingLoaded && <div className="skeleton skeleton-thumb" />}
               <img
                 src={data.details.clothing.img}
@@ -107,11 +124,11 @@ const ProvinceDetail = () => {
                 loading="lazy"
                 decoding="async"
                 onLoad={() => setClothingLoaded(true)}
-                className={`clothing-img transition-opacity duration-300 ${clothingLoaded ? 'opacity-100' : 'opacity-0'}`}
+                className={`w-[150px] h-[200px] object-contain object-center bg-white rounded-lg shadow transition-opacity duration-300 ${clothingLoaded ? 'opacity-100' : 'opacity-0'}`}
               />
-              <div className="clothing-text">
-                <h3>{data.details.clothing.name}</h3>
-                <p>{data.details.clothing.desc}</p>
+              <div>
+                <h3 className="text-xl text-[var(--primary)] mb-2">{data.details.clothing.name}</h3>
+                <p className="text-[#555] leading-relaxed">{data.details.clothing.desc}</p>
               </div>
             </div>
           </div>
@@ -120,12 +137,12 @@ const ProvinceDetail = () => {
             <h2 className="section-title"><Utensils size={28} /> Kuliner Legendaris</h2>
             <div className="food-grid">
               {data.details.food.map((item, idx) => (
-                <div key={idx} className="item-card">
-                  <img src={item.img} alt={item.name} loading="lazy" decoding="async" />
+                <div key={idx} className="flex items-center gap-4 p-4 rounded-xl border border-gray-200 bg-white">
+                  <img src={item.img} alt={item.name} loading="lazy" decoding="async" className="w-20 h-20 rounded-xl object-cover" />
                   <div>
-                    <strong className="block text-lg text-primary">{item.name}</strong>
+                    <strong className="block text-lg text-[var(--primary)]">{item.name}</strong>
                     <small className="block text-[#666] leading-relaxed">{item.desc}</small>
-                    <a href={item.resep} target='_blank' className="text-xs hover:opacity-70">Lihat resep</a>
+                    <a href={item.resep} target='_blank' rel='noopener noreferrer' className="text-xs hover:opacity-70">Lihat resep</a>
                   </div>
                 </div>
               ))}
@@ -136,10 +153,21 @@ const ProvinceDetail = () => {
             <h2 className="section-title"><Gamepad2 size={28} /> Permainan Tradisional</h2>
             <div className="games-grid">
               {data.details.games.map((game, idx) => (
-                <div key={idx} className="game-card">
-                  <strong>{game.name}</strong>
-                  <p>{game.desc}</p>
-                  <a href={game.video} target='_blank' className="text-xs hover:opacity-70">Lihat video</a>
+                <div key={idx} className="bg-white p-6 rounded-2xl border border-gray-200 shadow-sm">
+                  <strong className="block text-[var(--primary)] mb-2">{game.name}</strong>
+                  <p className="text-[#666] mb-2">{game.desc}</p>
+                  <a href={game.video} target='_blank' rel='noopener noreferrer' className="text-xs hover:opacity-70">Lihat video</a>
+                  {game.video && (
+                    <div className="video-embed">
+                      <iframe
+                        title={`video-${idx}`}
+                        src={getEmbedUrl(game.video)}
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
@@ -147,11 +175,18 @@ const ProvinceDetail = () => {
 
           <div className="article-card">
             <h2 className="section-title"><Music size={28} /> Seni & Tradisi</h2>
-            <div style={{ display: 'grid', gap: '15px' }}>
+            <div className="grid gap-4">
               {data.details.arts.map((art, idx) => (
-                <div key={idx} style={{ display: 'flex', gap: '15px', alignItems: 'center', borderBottom: '1px dashed #eee', paddingBottom: '15px' }}>
-                  <div style={{ background: 'var(--primary)', color: 'white', width: '40px', height: '40px', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>{idx + 1}</div>
-                  <div><strong style={{ fontSize: '1.1rem' }}>{art.name}</strong><p style={{ color: '#666', fontSize: '0.95rem', margin: 0 }}>{art.desc}</p><a href={art.video} target='_blank' className="text-xs hover:opacity-70">Lihat video</a></div>
+                <div key={idx} className="flex gap-4 items-center border-b border-dashed pb-4" style={{ borderColor: '#eee' }}>
+                  <div className="bg-[var(--primary)] text-white w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">{idx + 1}</div>
+                  <div>
+                    <strong className="text-[1.1rem]">{art.name}</strong>
+                    <p className="text-[#666] text-[0.95rem] m-0">{art.desc}</p>
+                    <a href={art.video} target='_blank' rel='noopener noreferrer' className="text-xs hover:opacity-70">Lihat video</a>
+                    {art.video && (
+                      <div className="video-embed"><iframe title={`art-${idx}`} src={getEmbedUrl(art.video)} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen /></div>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>

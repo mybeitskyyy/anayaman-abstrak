@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Heart } from 'lucide-react';
 
-const ProvinceCard = ({ data }) => {
+const ProvinceCard = ({ data, isFav, toggleFav }) => {
   return (
     <div className="card">
       <Link to={`/provinsi/${data.slug}`} className="card-link">
@@ -17,6 +17,14 @@ const ProvinceCard = ({ data }) => {
           </div>
         </div>
       </Link>
+      <button
+        className="fav-btn dark:bg-neutral-700 dark:text-white"
+        aria-pressed={!!isFav}
+        aria-label={isFav ? 'Hapus dari favorit' : 'Tambahkan ke favorit'}
+        onClick={() => toggleFav && toggleFav(data.id)}
+      >
+        <Heart size={20} color={isFav ? '#C67C4E' : '#999'} fill={isFav ? '#C67C4E' : 'none'} />
+      </button>
     </div>
   );
 };
