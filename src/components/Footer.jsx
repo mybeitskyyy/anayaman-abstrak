@@ -26,7 +26,7 @@ const Footer = () => (
         </div>
       </div>
       <div style={{ borderTop: '1px solid rgba(255,255,255,0.1)', paddingTop: '20px', textAlign: 'center', fontSize: '0.9rem', color: '#888' }}>
-        &copy; 2025 Nusantara Project. All Rights Reserved.
+        &copy; 2025 Anyaman Abstrak.
       </div>
     </div>
   </footer>

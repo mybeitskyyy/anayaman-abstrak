@@ -321,32 +321,32 @@ export const provincesData = [
     name: "Banten",
     region: "Jawa",
     capital: "Serang",
-    coverImg: "https://images.unsplash.com/photo-1518182170546-0766aa6f8a28?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://static.promediateknologi.id/crop/0x695:720x1162/750x500/webp/photo/p1/397/2025/09/16/Screenshot_20250916_100728-4181664382.jpg",
     desc: "Tanah Jawara, rumah Suku Baduy yang menjaga alam.",
     story: "Banten dulunya adalah kesultanan maritim yang besar. Di pedalamannya, Suku Baduy hidup harmonis dengan alam menolak teknologi modern. Seni Debus yang kebal senjata tajam berasal dari sini.",
     details: {
-      house: { name: "Sulah Nyanda", desc: "Rumah Suku Baduy dari bambu dan ijuk.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Baduy_Luar.jpg/1024px-Baduy_Luar.jpg" },
-      clothing: { name: "Pangsi", desc: "Setelan hitam-hitam jawara.", img: "https://images.unsplash.com/photo-1637325361673-49e60661d927?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Sulah Nyanda", desc: "Rumah Suku Baduy dari bambu dan ijuk.", img: "https://cnc-magazine.oramiland.com/parenting/images/rumah-adat-banten_V82juev.width-800.format-webp.webp" },
+      clothing: { name: "Pangsi", desc: "Setelan hitam-hitam jawara.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqv28CVyOzwBIQWDwFBcSYN5jxwt_3YIHgQ&s" },
       games: [
         { 
           name: "Gatrik", 
           desc: "Pukul kayu kecil.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/4o8HcLSgh8Q?si=4qFdFtrik2Sg13af" 
         }
       ],
       food: [
         { 
           name: "Sate Bandeng", 
           desc: "Bandeng tanpa duri dibakar.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://ppid.serangkota.go.id/po-content/uploads/img-20210330-wa0039.jpg",
+          resep: "https://cookpad.com/id/resep/16594830" 
         }
       ],
       arts: [
         { 
           name: "Debus", 
           desc: "Seni bela diri kebal.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/eZNu4t-59V4?si=Eh_8Bs-cxQWeV9JK" 
         }
       ],
       tourism: ["Taman Nasional Ujung Kulon", "Kampung Baduy"]
@@ -359,37 +359,37 @@ export const provincesData = [
     name: "DKI Jakarta",
     region: "Jawa",
     capital: "Jakarta",
-    coverImg: "https://images.unsplash.com/photo-1555899434-94d1368b7ade?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://images.unsplash.com/photo-1655553719535-6efb23d5b3c1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8a290YSUyMGpha2FydGF8ZW58MHx8MHx8fDA%3D",
     desc: "Metropolitan melting pot dengan budaya Betawi.",
     story: "Ibukota negara ini adalah pertemuan segala budaya. Budaya Betawi asli tetap eksis di tengah modernitas.",
     details: {
-      house: { name: "Rumah Kebaya", desc: "Ciri khas teras luas dan gigi balang.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Rumah_Betawi.jpg/1280px-Rumah_Betawi.jpg" },
-      clothing: { name: "Sadariah", desc: "Baju koko dan kain sarung (pria).", img: "https://images.unsplash.com/photo-1568436837468-19c42b0e4007?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Rumah Kebaya", desc: "Ciri khas teras luas dan gigi balang.", img: "https://statik.tempo.co/data/2023/11/27/id_1258119/1258119_720.jpg" },
+      clothing: { name: "Sadariah", desc: "Baju koko dan kain sarung (pria).", img: "https://cdn.antaranews.com/cache/1200x800/2020/06/23/Screen-Shot-2020-06-23-at-15.00.37.png.webp" },
       games: [
         { 
           name: "Galasin", 
           desc: "Gobak sodor.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/S_g5CvkZ8_A?si=sW8Wh0Nd4jalDiyy" 
         }, 
         { 
           name: "Gundu", 
           desc: "Kelereng.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/y6ep2ZaWmRc?si=XJE-6AcM9Gtde6Ig" 
         }
       ],
       food: [
         { 
           name: "Kerak Telor", 
           desc: "Omelet ketan.", 
-          img: "https://images.unsplash.com/photo-1599584789789-4b79678d046b?auto=format&fit=crop&w=300&q=80", 
-          resep: "https://example.com/resep" 
+          img: "https://media.istockphoto.com/id/2206316301/photo/a-traditional-indonesian-dish-kerak-telor-made-from-glutinous-rice-eggs-and-crispy-fried.webp?a=1&b=1&s=612x612&w=0&k=20&c=tMWW_H268PVZP55ZmtfjI-eE3mjq-TmGQaXXkFNepeE=", 
+          resep: "https://cookpad.com/id/resep/24840173" 
         }
       ],
       arts: [
         { 
           name: "Ondel-ondel", 
           desc: "Boneka raksasa.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/cc8kGJMCYaQ?si=ofCfRR7gPFNLj56-" 
         }
       ],
       tourism: ["Monas", "Kota Tua"]
@@ -402,37 +402,37 @@ export const provincesData = [
     name: "Jawa Barat",
     region: "Jawa",
     capital: "Bandung",
-    coverImg: "https://images.unsplash.com/photo-1628046963272-80377595c70a?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://images.unsplash.com/photo-1611638281871-1063d3e76e1f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFuZHVuZ3xlbnwwfHwwfHx8MA%3D%3D ",
     desc: "Tanah Pasundan yang sejuk dengan budaya Sunda.",
     story: "Jawa Barat identik dengan budaya Sunda yang ramah. Musik Angklung dari bambu adalah warisan dunia UNESCO.",
     details: {
-      house: { name: "Julang Ngapak", desc: "Atap seperti burung mengepakkan sayap.", img: "https://upload.wikimedia.org/wikipedia/commons/5/51/Anjungan_Jawa_Barat.jpg" },
-      clothing: { name: "Kebaya Sunda", desc: "Kebaya cerah dengan kain jarik.", img: "https://images.unsplash.com/photo-1598556776374-362d9230582e?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Julang Ngapak", desc: "Atap seperti burung mengepakkan sayap.", img: "https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,f_auto,q_auto:best,w_640/v1634025439/01jj8rnvenxzcjnx1b412hj27f.jpg" },
+      clothing: { name: "Kebaya Sunda", desc: "Kebaya cerah dengan kain jarik.", img: "https://lh7-us.googleusercontent.com/YGKXpJw8ECutD14OSAwR6pEycSV0ApBCNt89Ro8hc3v0Dpn4LxT0tcMieVkiUG8ULzK5i3IJcv-uS3FQ__fo0dqi9OvTWG85vukG3LuQ5eTogpLfuCWS8F_wyzdYubnKSWgMCNVBsB-9x2iChVA79DA" },
       games: [
         { 
           name: "Perepet Jengkol", 
           desc: "Menari dengan kaki saling kait.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/MDxTQk86tN4?si=UZM99l0nOK8sLuys" 
         }
       ],
       food: [
         { 
           name: "Batagor", 
           desc: "Bakso Tahu Goreng.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://media.istockphoto.com/id/1724279624/photo/meatballs-and-fried-tofu.webp?a=1&b=1&s=612x612&w=0&k=20&c=x53VdsgMpkHC8tgaS2pv1WaPSqFtfsj1Q0Yn9a-PQJA=",
+          resep: "https://cookpad.com/id/resep/25217111" 
         }
       ],
       arts: [
         { 
           name: "Angklung", 
           desc: "Musik bambu.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/WcIghfnVzyM?si=f9dKKby-GOj_4EeY" 
         }, 
         { 
           name: "Jaipong", 
           desc: "Tari dinamis.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/iE-YsfxH3pc?si=Au3kviOP2eC2ii5h" 
         }
       ],
       tourism: ["Kawah Putih", "Gedung Sate"]
@@ -445,32 +445,32 @@ export const provincesData = [
     name: "Jawa Tengah",
     region: "Jawa",
     capital: "Semarang",
-    coverImg: "https://images.unsplash.com/photo-1573378736547-4848d28e9d57?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://images.unsplash.com/photo-1652100591395-6d512bfaf5bb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2VtYXJhbmd8ZW58MHx8MHx8fDA%3D",
     desc: "Pusat peradaban Jawa dan Candi Borobudur.",
     story: "Jawa Tengah adalah jantung budaya Jawa. Candi Borobudur, candi Buddha terbesar di dunia, berdiri megah di sini.",
     details: {
-      house: { name: "Joglo", desc: "Atap tajug 4 tiang utama (soko guru).", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Joglo_House.jpg/1280px-Joglo_House.jpg" },
-      clothing: { name: "Jawi Jangkep", desc: "Beskap lengkap dengan blangkon dan keris.", img: "https://images.unsplash.com/photo-1572656631137-7935297eff55?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Joglo", desc: "Atap tajug 4 tiang utama (soko guru).", img: "https://cdn.rri.co.id/berita/Surakarta/o/1730257716739-Pinterest_Bangunan_Rumah_Joglo_di_Tanah_Jawa/h0lvwe6b5hmfkpl.jpeg" },
+      clothing: { name: "Jawi Jangkep", desc: "Beskap lengkap dengan blangkon dan keris.", img: "https://pariwisataindonesia.id/wp-content/uploads/2020/10/Baju-Jawi-Jangkep-foto-by-goodnewsfromindonesiaid.jpg" },
       games: [
         { 
           name: "Jamuran", 
           desc: "Bermain lingkaran lagu.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/NWeNArDJ_tc?si=4ZCGNM_UnMbVPUYb" 
         }
       ],
       food: [
         { 
           name: "Lumpia Semarang", 
           desc: "Rebung goreng.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://image.idntimes.com/post/20230526/img-20230526-185845-5e7f09505567688e0cb6154ede497009-b0409eac3b62081cfcabab9cb1b53fd9.jpg",
+          resep: "https://cookpad.com/id/resep/25115054" 
         }
       ],
       arts: [
         { 
           name: "Gamelan", 
           desc: "Orkestra Jawa.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/UEWCCSuHsuQ?si=Lu-aA6reZMRuxJba" 
         }
       ],
       tourism: ["Candi Borobudur", "Lawang Sewu"]
@@ -487,28 +487,28 @@ export const provincesData = [
     desc: "Daerah Istimewa yang dipimpin Sultan.",
     story: "Jogja adalah kota budaya dan pelajar. Satu-satunya provinsi yang masih dipimpin oleh Sultan aktif.",
     details: {
-      house: { name: "Bangsal Kencono", desc: "Arsitektur keraton yang agung.", img: "https://upload.wikimedia.org/wikipedia/commons/5/53/Kraton_Yogyakarta.jpg" },
-      clothing: { name: "Surjan", desc: "Baju lurik khas Jogja.", img: "https://images.unsplash.com/photo-1575685785864-397c1e042953?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Bangsal Kencono", desc: "Arsitektur keraton yang agung.", img: "https://pariwisataindonesia.id/wp-content/uploads/2020/10/Rumah-adat-Yogyakarta-foto-by-seringjalan.com_.png" },
+      clothing: { name: "Surjan", desc: "Baju lurik khas Jogja.", img: "https://filebroker-cdn.lazada.co.id/kf/Sa15df2e343fc42d48ba0a41c4f9a1ed5a.jpg" },
       games: [
         { 
           name: "Dakuan", 
           desc: "Congklak.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/JJAxKqjJHcQ?si=n5ALLXN9G7S9WNmu" 
         }
       ],
       food: [
         { 
           name: "Gudeg", 
           desc: "Nangka manis.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Nasi_Gudeg.jpg/1200px-Nasi_Gudeg.jpg",
+          resep: "https://cookpad.com/id/resep/25195651" 
         }
       ],
       arts: [
         { 
           name: "Wayang Kulit", 
           desc: "Bayangan boneka kulit.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/owJSqXipCYk?si=zuNHZvGy5ITG7s81" 
         }
       ],
       tourism: ["Malioboro", "Prambanan"]
@@ -521,32 +521,32 @@ export const provincesData = [
     name: "Jawa Timur",
     region: "Jawa",
     capital: "Surabaya",
-    coverImg: "https://images.unsplash.com/photo-1596401057633-565652c5f2f3?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://images.unsplash.com/photo-1566176553949-872b2a73e04e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VyYWJheWF8ZW58MHx8MHx8fDA%3D",
     desc: "Bumi Majapahit dan Gunung Bromo.",
     story: "Jawa Timur memiliki karakter masyarakat yang egaliter dan terbuka. Gunung Bromo yang ikonik ada di sini.",
     details: {
-      house: { name: "Joglo Situbondo", desc: "Joglo dengan ukiran khas pesisir.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Anjungan_Jawa_Timur.jpg/1024px-Anjungan_Jawa_Timur.jpg" },
-      clothing: { name: "Pesa'an", desc: "Baju Madura kaos loreng merah putih.", img: "https://images.unsplash.com/photo-1630396668990-7097723b060c?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Joglo Situbondo", desc: "Joglo dengan ukiran khas pesisir.", img: "https://mmc.tirto.id/image/otf/720x0,q80/2018/11/28/rumah-joglo-i2.wp.com_ratio-16x9.jpg" },
+      clothing: { name: "Pesa'an", desc: "Baju Madura kaos loreng merah putih.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6J2qeRM7qol9u4BaxpNDlaOOVaEWeUpUwsw&s" },
       games: [
         { 
           name: "Patil Lele", 
           desc: "Pukul kayu.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/NBZ14dk6XhE?si=2JQAThFsfbGT87ZK" 
         }
       ],
       food: [
         { 
           name: "Rawon", 
           desc: "Sup daging kuah hitam kluwek.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://cdn1-production-images-kly.akamaized.net/o9ov8eOmGxO0XGVS-4cutHn4kWM=/1200x675/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3117261/original/048100200_1588325749-030607000_1467613172-rawon-setan.jpg",
+          resep: "https://cookpad.com/id/resep/25210350" 
         }
       ],
       arts: [
         { 
           name: "Reog Ponorogo", 
           desc: "Topeng singa raksasa.", 
-          video: "https://example.com/video" 
+          video: "https://youtube.com/shorts/uOa71Fzy1IQ?si=20_EtqOafS3Bt0kQ" 
         }
       ],
       tourism: ["Gunung Bromo", "Kawah Ijen"]
@@ -563,28 +563,28 @@ export const provincesData = [
     desc: "Pulau Dewata yang magis dan religius.",
     story: "Bali adalah ikon pariwisata Indonesia. Budaya Hindu Tri Hita Karana menjaga keseimbangan alam, manusia, dan Tuhan.",
     details: {
-      house: { name: "Gapura Candi Bentar", desc: "Pintu gerbang terbelah dua.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Bali_Gate.jpg/800px-Bali_Gate.jpg" },
-      clothing: { name: "Payas Agung", desc: "Pakaian mewah warna emas.", img: "https://images.unsplash.com/photo-1616628188550-808960c07c09?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Gapura Candi Bentar", desc: "Pintu gerbang terbelah dua.", img: "https://s3.ap-southeast-1.wasabisys.com/c340968/2023/05/W2Rbt6Vb-Gapura-Candi-Bentar.webp" },
+      clothing: { name: "Payas Agung", desc: "Pakaian mewah warna emas.", img: "https://weddingmarket.com/storage/images/artikelideacontent/new/b5742c14b2951e6a759ecef6fbef2a55062c8dce.webp" },
       games: [
         { 
           name: "Megoak-goakan", 
           desc: "Tangkap ekor naga.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/D2dtK6yIeNU?si=_e0JUfhleDMulHzlhttps://example.com/video" 
         }
       ],
       food: [
         { 
           name: "Ayam Betutu", 
           desc: "Ayam bumbu rempah.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://awsimages.detik.net.id/community/media/visual/2021/08/27/resep-ayam-betutu-gilimanuk_43.jpeg?w=600&q=90",
+          resep: "https://cookpad.com/id/resep/25213972" 
         }
       ],
       arts: [
         { 
           name: "Kecak", 
           desc: "Tari suara mulut.", 
-          video: "https://example.com/video" 
+          video: "https://youtube.com/shorts/RAXbksvWdjc?si=jJ6WdaVSJEyNFQ9V" 
         }
       ],
       tourism: ["Tanah Lot", "Ubud"]
@@ -597,32 +597,32 @@ export const provincesData = [
     name: "Nusa Tenggara Barat",
     region: "Bali & Nusra",
     capital: "Mataram",
-    coverImg: "https://images.unsplash.com/photo-1591708072113-18c3994eb4f9?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://images.tokopedia.net/blog-tokopedia-com/uploads/2018/09/wisata-pulau-NTB-1-Dream.jpg",
     desc: "Pulau Seribu Masjid dan Gunung Rinjani.",
     story: "NTB dihuni Suku Sasak (Lombok) dan Samawa/Mbojo (Sumbawa). Mandalika kini menjadi sirkuit MotoGP kelas dunia.",
     details: {
-      house: { name: "Dalam Loka", desc: "Istana kayu Sumbawa yang megah.", img: "https://upload.wikimedia.org/wikipedia/commons/0/08/Istana_Dalam_Loka.jpg" },
-      clothing: { name: "Lambung", desc: "Pakaian wanita Sasak hitam dengan selendang.", img: "https://images.unsplash.com/photo-1626858392394-08f987703491?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Dalam Loka", desc: "Istana kayu Sumbawa yang megah.", img: "https://awsimages.detik.net.id/community/media/visual/2020/11/12/rumah-dalam-loka_169.png?w=1200" },
+      clothing: { name: "Lambung", desc: "Pakaian wanita Sasak hitam dengan selendang.", img: "https://images.genpi.co/uploads/ntb/arsip/normal/2022/02/03/pakaian-adat-lambung-foto-pariwisataindonesiaid-6f8p.jpg" },
       games: [
         { 
           name: "Peresean", 
           desc: "Tarung rotan dan perisai.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/_Z0habwGVAA?si=4mBbgY1ilKorapzJ" 
         }
       ],
       food: [
         { 
           name: "Ayam Taliwang", 
           desc: "Ayam bakar pedas.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://img-global.cpcdn.com/recipes/bdf65eabcc01f670/400x400cq80/photo.jpg",
+          resep: "https://cookpad.com/id/resep/24991237" 
         }
       ],
       arts: [
         { 
           name: "Gendang Beleq", 
           desc: "Musik gendang besar.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/5lAMOLuxFBg?si=k2e_7aXmac4Zwtkg" 
         }
       ],
       tourism: ["Gili Trawangan", "Gunung Rinjani"]
@@ -635,37 +635,38 @@ export const provincesData = [
     name: "Nusa Tenggara Timur",
     region: "Bali & Nusra",
     capital: "Kupang",
-    coverImg: "https://images.unsplash.com/photo-1518894349511-737262ce701a?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/4/43/Night_at_Kupang_city.jpg",
     desc: "Rumah Komodo dan Danau Kelimutu.",
     story: "NTT adalah provinsi kepulauan dengan lanskap sabana eksotis. Pulau Komodo adalah satu-satunya habitat naga purba.",
     details: {
-      house: { name: "Mbaru Niang", desc: "Rumah kerucut Wae Rebo.", img: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Wae_Rebo.jpg" },
-      clothing: { name: "Tenun Ikat", desc: "Kain tenun motif rumit khas Flores/Sumba.", img: "https://images.unsplash.com/photo-1621746173781-62b55534234f?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Mbaru Niang", desc: "Rumah kerucut Wae Rebo.", img: "https://indonesia.go.id/assets/upload/headline/1543848051_Mbaru_Niang,_Istana_di_Atas_Awan__sportourismid_thumb.jpg" },
+      clothing: { name: "Tenun Ikat", desc: "Kain tenun motif rumit khas Flores/Sumba.", img: "https://klasika.kompas.id/wp-content/uploads/2013/12/shutterstock_2502570467-e1729586003287.webp" },
       games: [
         { 
           name: "Rangkuk Alu", 
           desc: "Lompat bambu.", 
-          video: "https://example.com/video" 
+          video: "https://youtube.com/shorts/ydWbBdcE0IY?si=oQn7mUvQtilC4KjL" 
         }
       ],
       food: [
         { 
           name: "Se'i Sapi", 
           desc: "Daging asap.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmp8qZkmILeJc2vtVymHaw3GvitAVbXCY2SA&s",
+          resep: "https://cookpad.com/id/resep/24820945" 
         }
       ],
       arts: [
         { 
           name: "Sasando", 
           desc: "Musik daun lontar.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/6i4m-xHb6VU?si=D_Y2aCr2KedIgFww" 
         }
       ],
       tourism: ["Pulau Komodo", "Labuan Bajo"]
     }
   },
+
   // 20. KALIMANTAN BARAT
   {
     id: 20,
@@ -673,32 +674,32 @@ export const provincesData = [
     name: "Kalimantan Barat",
     region: "Kalimantan",
     capital: "Pontianak",
-    coverImg: "https://images.unsplash.com/photo-1628602934756-c6b0251d827f?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Equator_Pontianak_Monument.jpg",
     desc: "Kota Khatulistiwa dan Sungai Kapuas.",
     story: "Pontianak dilalui garis Khatulistiwa. Sungai Kapuas, sungai terpanjang di Indonesia, menjadi nadi kehidupan.",
     details: {
-      house: { name: "Rumah Radakng", desc: "Rumah panjang Dayak (Longhouse).", img: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Rumah_Radakng_Pontianak.jpg" },
-      clothing: { name: "King Baba", desc: "Pakaian kulit kayu ampuro.", img: "https://images.unsplash.com/photo-1598556776374-362d9230582e?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Rumah Radakng", desc: "Rumah panjang Dayak (Longhouse).", img: "https://pontinesia.com/radakng/3.jpg" },
+      clothing: { name: "King Baba", desc: "Pakaian kulit kayu ampuro.", img: "https://img.inews.co.id/media/600/files/networks/2022/08/23/4cb36_baju-adat.jpeg" },
       games: [
         { 
           name: "Gasing", 
           desc: "Gasing kayu.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/jcwNyUgzo_o?si=wtQnGP6rp6NXOoXk" 
         }
       ],
       food: [
         { 
           name: "Bubur Pedas", 
           desc: "Bubur sayuran dan rempah.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://horizone.co.id/uploads/images/202310/image_750x_653d2fa6b924d.jpg",
+          resep: "https://cookpad.com/id/resep/15019056" 
         }
       ],
       arts: [
         { 
           name: "Tari Monong", 
           desc: "Tari penyembuhan.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/CX8Mk2PO4dw?si=01mFNo9QlFAIVqRi" 
         }
       ],
       tourism: ["Tugu Khatulistiwa", "Singkawang"]
@@ -711,32 +712,32 @@ export const provincesData = [
     name: "Kalimantan Tengah",
     region: "Kalimantan",
     capital: "Palangkaraya",
-    coverImg: "https://images.unsplash.com/photo-1618635221848-3a4a316f56c1?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Bundaran_Besar_Palangka_Raya_%28baru%29.jpg",
     desc: "Paru-paru dunia dengan hutan tropis luas.",
     story: "Tanjung Puting di Kalteng adalah pusat rehabilitasi Orangutan terbesar. Suku Dayak Ngaju mendominasi wilayah ini.",
     details: {
-      house: { name: "Rumah Betang", desc: "Rumah panjang dihuni banyak keluarga.", img: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Rumah_Betang.jpg" },
-      clothing: { name: "Sangkarut", desc: "Baju rompi serat nanas.", img: "https://images.unsplash.com/photo-1632653263825-56952e1c394d?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Rumah Betang", desc: "Rumah panjang dihuni banyak keluarga.", img: "https://indonesia.go.id/assets/upload/headline/1569982328_Rumah_Betang_thumb.jpg" },
+      clothing: { name: "Sangkarut", desc: "Baju rompi serat nanas.", img: "https://www.indonesia.travel/contentassets/671dbd9cc73c434e9ba084321b0343ad/baju-sangkarut.jpg" },
       games: [
         { 
           name: "Sepak Sawut", 
           desc: "Bola api kelapa.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/fbvGJwzOH6o?si=aoQGMs8LweAeyXVL" 
         }
       ],
       food: [
         { 
           name: "Juhu Singkah", 
           desc: "Sayur rotan muda.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3fKecDd1QNr3ui36N0X5yj37NCyOhBvYUEQ&s",
+          resep: "https://cookpad.com/id/resep/16572496" 
         }
       ],
       arts: [
         { 
           name: "Tari Mandau", 
           desc: "Tari perang senjata.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/2Kl99s5uqLw?si=G0yzfy7UVtDiTLEt" 
         }
       ],
       tourism: ["Tanjung Puting", "Sungai Kahayan"]
@@ -749,32 +750,32 @@ export const provincesData = [
     name: "Kalimantan Selatan",
     region: "Kalimantan",
     capital: "Banjarbaru",
-    coverImg: "https://images.unsplash.com/photo-1600612297725-c312a8c03f82?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/6/63/Bundaran_Simpang_Empat_Banjarbaru_001.jpg",
     desc: "Kota Seribu Sungai dan Pasar Terapung.",
     story: "Budaya sungai sangat kental di sini. Pasar Terapung Lok Baintan adalah atraksi unik di mana jual beli dilakukan di atas perahu jukung.",
     details: {
-      house: { name: "Rumah Bubungan Tinggi", desc: "Rumah adat Banjar atap curam.", img: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Rumah_Adat_Banjar_Bubungan_Tinggi.jpg" },
-      clothing: { name: "Bagajah Gamuling", desc: "Pakaian pengantin Banjar.", img: "https://images.unsplash.com/photo-1598896537224-108629c28862?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Rumah Bubungan Tinggi", desc: "Rumah adat Banjar atap curam.", img: "https://simdapokbud.banjarkab.go.id/uploads/objek-budaya/rumah_adat_banjar_bubungan_tinggi_teluk_selong_611c89386f294_35741751.jpg" },
+      clothing: { name: "Bagajah Gamuling", desc: "Pakaian pengantin Banjar.", img: "https://pariwisataindonesia.id/wp-content/uploads/2020/10/bagajahgamulingbaularlulut-foto-BA-Gajah-Gamuling.jpg" },
       games: [
         { 
           name: "Balogo", 
           desc: "Melempar tempurung ke sasaran.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/0FEMFpq1xLM?si=jMHqYtHviOOM1shS" 
         }
       ],
       food: [
         { 
           name: "Soto Banjar", 
           desc: "Soto kuah bening rempah.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://img-global.cpcdn.com/recipes/57b52ad2b52c11bc/1200x630cq80/photo.jpg",
+          resep: "https://cookpad.com/id/resep/24490549" 
         }
       ],
       arts: [
         { 
           name: "Madihin", 
           desc: "Seni tutur pantun.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/cuE-dAIi0Xc?si=o5aVxyVmAgpkJSsA" 
         }
       ],
       tourism: ["Pasar Terapung", "Pulau Kembang"]
@@ -787,32 +788,32 @@ export const provincesData = [
     name: "Kalimantan Timur",
     region: "Kalimantan",
     capital: "Samarinda",
-    coverImg: "https://images.unsplash.com/photo-1603777833524-9875041c43e6?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://kaltimexpose.com/wp-content/uploads/2024/09/15-Tempat-Wisata-Menarik-di-Samarinda-untuk-Liburan-Keluarga.webp",
     desc: "Bumi Etam dan calon Ibu Kota Negara (IKN).",
     story: "Provinsi kaya minyak dan batubara ini dipilih menjadi lokasi IKN Nusantara. Sungai Mahakam adalah habitat Pesut yang langka.",
     details: {
-      house: { name: "Rumah Lamin", desc: "Rumah panjang ukiran Dayak.", img: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Lamin_Dayak.jpg" },
-      clothing: { name: "Sapei Sapaq", desc: "Pakaian Dayak Kenyah manik-manik.", img: "https://images.unsplash.com/photo-1603777833524-9875041c43e6?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Rumah Lamin", desc: "Rumah panjang ukiran Dayak.", img: "https://asset.kompas.com/crops/49oDBs3LESEoVs8VaIEJtJQ3xtQ=/27x30:527x363/750x500/data/photo/2020/04/29/5ea8da52d1c7f.png" },
+      clothing: { name: "Sapei Sapaq", desc: "Pakaian Dayak Kenyah manik-manik.", img: "https://genpi.id/wp-content/uploads/2021/07/Pakaian-Adat-Taa-instagram.com-pesonadayakhitz.jpg" },
       games: [
         { 
           name: "Gasing", 
           desc: "Gasing kayu.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/jcwNyUgzo_o?si=8D32CaNKEMQWOFKV" 
         }
       ],
       food: [
         { 
           name: "Nasi Bekepor", 
           desc: "Nasi liwet Kutai.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://www.indonesia.travel/contentassets/6d7b7a26299d40b7848287007912bc20/nasi-bekepor.jpg",
+          resep: "https://cookpad.com/id/resep/15763047" 
         }
       ],
       arts: [
         { 
           name: "Tari Hudoq", 
           desc: "Tari topeng roh pelindung.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/nVM10FmnTEc?si=Qf75WMzPrTrcihok" 
         }
       ],
       tourism: ["Kepulauan Derawan", "Bukit Bangkirai"]
@@ -825,32 +826,32 @@ export const provincesData = [
     name: "Kalimantan Utara",
     region: "Kalimantan",
     capital: "Tanjung Selor",
-    coverImg: "https://upload.wikimedia.org/wikipedia/commons/1/18/Kayan_River.jpg",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/1/18/Tugu_Cinta_Damai.JPG",
     desc: "Provinsi termuda di Kalimantan, perbatasan Malaysia.",
     story: "Kaltara adalah rumah bagi Suku Dayak Lundayeh. Alamnya masih sangat perawan dengan Taman Nasional Kayan Mentarang.",
     details: {
-      house: { name: "Baloy Mayo", desc: "Rumah adat Suku Tidung.", img: "https://upload.wikimedia.org/wikipedia/commons/8/86/Rumah_Baloy.jpg" },
-      clothing: { name: "Ta'a dan Sapei Sapaq", desc: "Pakaian manik-manik Dayak.", img: "https://images.unsplash.com/photo-1626509324367-5b4296d6518c?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Baloy Mayo", desc: "Rumah adat Suku Tidung.", img: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Baloy_Mayo_Adat_Tidung_%282%29.JPG" },
+      clothing: { name: "Ta'a dan Sapei Sapaq", desc: "Pakaian manik-manik Dayak.", img: "https://genpi.id/wp-content/uploads/2021/07/Pakaian-Adat-Taa-instagram.com-pesonadayakhitz-1.jpg" },
       games: [
         { 
           name: "Gasing", 
           desc: "Gasing kayu.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/jcwNyUgzo_o?si=VtMRe3_zrwTbxyUy" 
         }
       ],
       food: [
         { 
           name: "Kepiting Soka", 
           desc: "Kepiting lunak.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://www.katakini.com/images/posts/1/2022/2022-03-06/f7301d4291f0a97e63e3b7dc5c4060c0_1.jpg",
+          resep: "https://cookpad.com/id/resep/13876793" 
         }
       ],
       arts: [
         { 
           name: "Tari Magunatip", 
           desc: "Lompat bambu (seperti Rangkuk Alu). ", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/Ga-45jLzE4c?si=D4lpPiNb_1WqmonM" 
         }
       ],
       tourism: ["Taman Nasional Kayan Mentarang", "Air Terjun Martin Billa"]
@@ -863,32 +864,32 @@ export const provincesData = [
     name: "Sulawesi Utara",
     region: "Sulawesi",
     capital: "Manado",
-    coverImg: "https://images.unsplash.com/photo-1516546563197-0a2180332a98?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://welcomemanado.com/images/2022/06/19/manadocitytour.jpg",
     desc: "Bumi Nyiur Melambai dan Taman Laut Bunaken.",
     story: "Manado terkenal dengan kerukunan beragamanya. Taman Laut Bunaken adalah surga penyelam dunia.",
     details: {
-      house: { name: "Walewangko", desc: "Rumah panggung Minahasa.", img: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Rumah_Pewaris.jpg" },
-      clothing: { name: "Laku Tepu", desc: "Baju panjang serat pisang.", img: "https://images.unsplash.com/photo-1626858392394-08f987703491?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Walewangko", desc: "Rumah panggung Minahasa.", img: "https://www.pewartanusantara.com/wp-content/uploads/2019/02/Rumah-Adat-Provinsi-Sulawesi-Utara-minahasa-Walewangko.jpg" },
+      clothing: { name: "Laku Tepu", desc: "Baju panjang serat pisang.", img: "https://pariwisataindonesia.id/wp-content/uploads/2020/11/baju-adat-laku-tepu-foto-by-pariwisatasulawesiutaracom.jpg" },
       games: [
         { 
           name: "Ceklen", 
           desc: "Permainan karet.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/aW1_V1cIXtU?si=-ZkUfUKdDt5N9lDJ" 
         }
       ],
       food: [
         { 
           name: "Bubur Manado", 
           desc: "Bubur sayuran (Tinutuan).", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://asset.kompas.com/crops/GZP1r3C5qNg_J8bgVzQtupnPoBs=/81x22:892x563/1200x800/data/photo/2020/05/13/5ebbdec618a37.jpg",
+          resep: "https://cookpad.com/id/resep/25183380" 
         }
       ],
       arts: [
         { 
           name: "Kolintang", 
           desc: "Musik pukul kayu.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/xp-GJ1vIoZw?si=_bEH1mglc_JmVEGe" 
         }
       ],
       tourism: ["Bunaken", "Danau Linow"]
@@ -901,32 +902,32 @@ export const provincesData = [
     name: "Gorontalo",
     region: "Sulawesi",
     capital: "Gorontalo",
-    coverImg: "https://images.unsplash.com/photo-1519741539952-d63e8432c93f?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Masjid_Agung_Gorontalo.jpg",
     desc: "Serambi Madinah di Sulawesi.",
     story: "Pecahan dari Sulut ini mayoritas Muslim dan memiliki adat yang bersendikan syarak. Hiu Paus sering muncul di perairannya.",
     details: {
-      house: { name: "Dulohupa", desc: "Rumah panggung musyawarah.", img: "https://upload.wikimedia.org/wikipedia/commons/6/68/Rumah_Adat_Dulohupa.jpg" },
-      clothing: { name: "Biliu", desc: "Pakaian pengantin wanita berhias manik.", img: "https://images.unsplash.com/photo-1637325361673-49e60661d927?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Dulohupa", desc: "Rumah panggung musyawarah.", img: "https://cdn.brighton.co.id/Uploads/Images/8281606/7JWK47Xa/Artikel-63-Medium.webp" },
+      clothing: { name: "Biliu", desc: "Pakaian pengantin wanita berhias manik.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA_DjLOWkxnhmCb_ZIk1ic0r_mxoQWZg_llQ&s" },
       games: [
         { 
           name: "Pontih", 
           desc: "Gasing batok kelapa.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/rvIVWSVfg_8?si=9c6oQOGnPb2cxKhI" 
         }
       ],
       food: [
         { 
           name: "Binte Biluhuta", 
           desc: "Sup jagung udang.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSik0wKNlERyeKabPgMlhtsyOETZ8wSM7h3mg&s",
+          resep: "https://cookpad.com/id/resep/24055849p" 
         }
       ],
       arts: [
         { 
           name: "Tari Saronde", 
           desc: "Tari pergaulan.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/46QylIVFRmA?si=v0YvrhgKXL-V7RyJ" 
         }
       ],
       tourism: ["Pulo Cinta", "Benteng Otanaha"]
@@ -939,32 +940,32 @@ export const provincesData = [
     name: "Sulawesi Tengah",
     region: "Sulawesi",
     capital: "Palu",
-    coverImg: "https://upload.wikimedia.org/wikipedia/commons/7/79/Lake_Poso.jpg",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Tugu_Perdamaian_Palu.jpg/250px-Tugu_Perdamaian_Palu.jpg",
     desc: "Negeri Seribu Megalit di Lembah Bada.",
     story: "Sulteng memiliki situs megalitikum misterius di Lembah Bada. Danau Poso adalah danau terdalam ketiga di Indonesia.",
     details: {
-      house: { name: "Souraja", desc: "Rumah raja Palu.", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Banua_Oge_Sou_Raja.jpg/1024px-Banua_Oge_Sou_Raja.jpg" },
-      clothing: { name: "Nggembe", desc: "Baju remaja putri.", img: "https://images.unsplash.com/photo-1594310068934-b008479357f5?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Souraja", desc: "Rumah raja Palu.", img: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Sou_Raja_or_Banua_Oge%2C_Palu%2C_Central_Sulawesi_2018-09-17_01.jpg" },
+      clothing: { name: "Nggembe", desc: "Baju remaja putri.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo2ZtR2iQtGlK9EAtXC6QQV-b4KUOgQ33glA&so" },
       games: [
         { 
           name: "Tilako", 
           desc: "Egrang.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/pHTPe-RI93A?si=QTCin3cT1Djqeym4" 
         }
       ],
       food: [
         { 
           name: "Kaledo", 
           desc: "Sup kaki lembu donggala.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxcqDKcThamawEkI3g9odg9stdhGe2smVqcA&s",
+          resep: "https://cookpad.com/id/resep/25065274" 
         }
       ],
       arts: [
         { 
           name: "Tari Lumense", 
           desc: "Tari penyambutan.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/tSrFMTqdmPU?si=5DDimUxZDASxv-Uc" 
         }
       ],
       tourism: ["Danau Poso", "Taman Nasional Lore Lindu"]
@@ -977,32 +978,32 @@ export const provincesData = [
     name: "Sulawesi Barat",
     region: "Sulawesi",
     capital: "Mamuju",
-    coverImg: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Sandeq.jpg",
+    coverImg: "https://media.istockphoto.com/id/1134290966/photo/tentena-village-on-poso-river.webp?a=1&b=1&s=612x612&w=0&k=20&c=7n53V-q1n0C1AqFkEmvzLIJPjdcwsgzDL9tuSpaJCjU=",
     desc: "Rumah perahu layar tercepat di dunia, Sandeq.",
     story: "Suku Mandar di Sulbar adalah pelaut ulung. Perahu Sandeq mereka terkenal sebagai perahu layar tradisional tercepat.",
     details: {
-      house: { name: "Boyang", desc: "Rumah panggung Suku Mandar.", img: "https://upload.wikimedia.org/wikipedia/commons/7/76/Rumah_Adat_Mandar.jpg" },
-      clothing: { name: "Pattuqduq", desc: "Baju rawang untuk menari.", img: "https://images.unsplash.com/photo-1518182170546-0766aa6f8a28?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Boyang", desc: "Rumah panggung Suku Mandar.", img: "https://awsimages.detik.net.id/community/media/visual/2022/09/17/rumah-adat-mandar_169.jpeg?w=1200" },
+      clothing: { name: "Pattuqduq", desc: "Baju rawang untuk menari.", img: "https://assets-a1.kompasiana.com/items/album/2024/06/02/baju-adat-provinsi-sulawesi-barat-665bcb5dc925c427074f6e32.jpg?t=o&v=780" },
       games: [
         { 
           name: "Gasing", 
           desc: "Gasing.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/jcwNyUgzo_o?si=UlYzO3SE6xiJmUs7" 
         }
       ],
       food: [
         { 
           name: "Jepa", 
           desc: "Roti pipih dari sagu/singkong.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://true-north-kitchen.com/wp-content/uploads/2020/10/whole-wheat-rye-flatbreads-1-822x1024.jpg",
+          resep: "https://domesticdreamboat.com/skillet-flatbread/" 
         }
       ],
       arts: [
         { 
           name: "Sayyang Pattu'du", 
           desc: "Kuda menari.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/Q3IsZZ0iWIw?si=w1ybLz15yga3VMzK" 
         }
       ],
       tourism: ["Pantai Manakarra", "Pulau Karampuang"]
@@ -1015,32 +1016,32 @@ export const provincesData = [
     name: "Sulawesi Selatan",
     region: "Sulawesi",
     capital: "Makassar",
-    coverImg: "https://images.unsplash.com/photo-1518182170546-0766aa6f8a28?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://www.rumah123.com/seo-cms/assets/foto_kota_makassar_320f376cf0/foto_kota_makassar_320f376cf0.webp",
     desc: "Tanah Phinisi dan budaya Toraja.",
     story: "Makassar adalah gerbang timur Indonesia. Tana Toraja memiliki tradisi pemakaman unik di tebing batu.",
     details: {
-      house: { name: "Tongkonan", desc: "Rumah Toraja atap perahu.", img: "https://images.unsplash.com/photo-1596401057633-565652c5f2f3?auto=format&fit=crop&w=800&q=80" },
-      clothing: { name: "Baju Bodo", desc: "Baju adat tertua di dunia (transparan).", img: "https://images.unsplash.com/photo-1572656631137-7935297eff55?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Tongkonan", desc: "Rumah Toraja atap perahu.", img: "https://www.ruparupa.com/blog/wp-content/uploads/2022/02/toraja-houses-1500.jpg" },
+      clothing: { name: "Baju Bodo", desc: "Baju adat tertua di dunia (transparan).", img: "https://i.pinimg.com/736x/da/aa/f7/daaaf788195da111e486c22ee64d6a83.jpg" },
       games: [
         { 
           name: "Ma'raga", 
           desc: "Sepak takraw rotan.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/Y5aj_M1k6wo?si=MgMd51_NTRoD6qsG" 
         }
       ],
       food: [
         { 
           name: "Coto Makassar", 
           desc: "Soto jeroan.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://indonesiakaya.com/wp-content/uploads/2023/04/cm_Artboard_4.jpg",
+          resep: "https://cookpad.com/id/resep/25164774" 
         }
       ],
       arts: [
         { 
           name: "Tari Pakarena", 
           desc: "Tari kipas.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/k1w5rrhftnI?si=pCBJZgJOJh-NkHjD" 
         }
       ],
       tourism: ["Pantai Losari", "Tana Toraja"]
@@ -1053,32 +1054,32 @@ export const provincesData = [
     name: "Sulawesi Tenggara",
     region: "Sulawesi",
     capital: "Kendari",
-    coverImg: "https://images.unsplash.com/photo-1596422972842-0a0b6c848d55?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/6/63/Kendari_at_night.jpg",
     desc: "Surga bawah laut Wakatobi.",
     story: "Wakatobi (Wangi-wangi, Kaledupa, Tomia, Binongko) adalah cagar biosfer bumi. Pandai besi dari Pulau Binongko sangat terkenal.",
     details: {
-      house: { name: "Banua Tada", desc: "Rumah siku Suku Buton.", img: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Istana_Malige.jpg" },
-      clothing: { name: "Babu Nggawi", desc: "Pakaian Suku Tolaki.", img: "https://images.unsplash.com/photo-1565028646-077c85376a90?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Banua Tada", desc: "Rumah siku Suku Buton.", img: "https://www.indonesia.travel/contentassets/3e5120b91c8b4bb2ad41862115d8168c/banua-tada.jpeg" },
+      clothing: { name: "Babu Nggawi", desc: "Pakaian Suku Tolaki.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw3K3txlj1A-Y5WNfDRb5yHPX1kt_rSXntYw&s" },
       games: [
         { 
           name: "Metinggo", 
           desc: "Egrang.", 
-          video: "https://example.com/video" 
+          video: "https://youtube.com/shorts/a0yoslhhtuc?si=PtBoe-yHXXBMVEZ1" 
         }
       ],
       food: [
         { 
           name: "Sinonggi", 
           desc: "Papeda sagu khas Kendari.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://pariwisataindonesia.id/wp-content/uploads/2024/01/jan-4.jpg",
+          resep: "https://cookpad.com/id/resep/25177139" 
         }
       ],
       arts: [
         { 
           name: "Tari Lariangi", 
           desc: "Tari kerajaan Wakatobi.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/sU_h5Io2g30?si=QV6QdiyUMU0eaITZ" 
         }
       ],
       tourism: ["Wakatobi", "Benteng Keraton Buton"]
@@ -1091,32 +1092,32 @@ export const provincesData = [
     name: "Maluku",
     region: "Maluku",
     capital: "Ambon",
-    coverImg: "https://images.unsplash.com/photo-1622553818810-3a7c49285584?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://blog.igloo.co.id/wp-content/uploads/2024/10/destinasi-wisata-maluku-ginanjar-rah-widodo-via-Shutterstock-scaled.jpg",
     desc: "The Spice Islands, kepulauan rempah bersejarah.",
     story: "Maluku adalah tujuan utama penjelajah Eropa mencari pala dan cengkeh. Ambon Manise memiliki julukan City of Music dari UNESCO.",
     details: {
-      house: { name: "Baileo", desc: "Rumah adat tanpa dinding.", img: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Baileo_Saparua.jpg" },
-      clothing: { name: "Baju Cele", desc: "Baju kotak-kotak merah putih.", img: "https://images.unsplash.com/photo-1598896537224-108629c28862?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Baileo", desc: "Rumah adat tanpa dinding.", img: "https://www.ruparupa.com/blog/wp-content/uploads/2022/01/rumah-adat-baileo.jpg" },
+      clothing: { name: "Baju Cele", desc: "Baju kotak-kotak merah putih.", img: "https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/24/2021/11/baju-cele-2-sewa-ajah.jpg" },
       games: [
         { 
           name: "Bambu Gila", 
           desc: "Mistis mengendalikan bambu.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/dzGcdk4fbqY?si=dbcO-eYZVGcoD1IC" 
         }
       ],
       food: [
         { 
           name: "Papeda Ikan Kuah Kuning", 
           desc: "Sagu dan ikan.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://hypeabis.id/assets/content/20230711170714000000papedaikankuning3594887241.jpg",
+          resep: "https://cookpad.com/id/resep/25177139" 
         }
       ],
       arts: [
         { 
           name: "Cakalele", 
           desc: "Tari perang.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/5K-1v9jXCmo?si=uS3MmQhGTTpk-GwR" 
         }
       ],
       tourism: ["Pantai Ora", "Benteng Belgica"]
@@ -1129,32 +1130,32 @@ export const provincesData = [
     name: "Maluku Utara",
     region: "Maluku",
     capital: "Sofifi",
-    coverImg: "https://upload.wikimedia.org/wikipedia/commons/2/23/Maitara_and_Tidore.jpg",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/4/46/Surga_rempah_rempah.jpg",
     desc: "Negeri Kie Raha (Empat Gunung/Kerajaan).",
     story: "Ternate dan Tidore adalah kesultanan Islam yang sangat berpengaruh dalam sejarah jalur rempah dunia. Pemandangan Pulau Maitara dan Tidore diabadikan di uang seribu rupiah.",
     details: {
-      house: { name: "Sasadu", desc: "Rumah adat Suku Sahu.", img: "https://upload.wikimedia.org/wikipedia/commons/7/72/Sasadu.jpg" },
-      clothing: { name: "Manteren Lamo", desc: "Jubah panjang sultan.", img: "https://images.unsplash.com/photo-1632653263825-56952e1c394d?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Sasadu", desc: "Rumah adat Suku Sahu.", img: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rumah_adat_Sasadu_Desa_Gamtala.jpg" },
+      clothing: { name: "Manteren Lamo", desc: "Jubah panjang sultan.", img: "https://awsimages.detik.net.id/community/media/visual/2021/12/14/pakaian-adat-maluku.png?w=1200" },
       games: [
         { 
           name: "Bela Diri", 
           desc: "Silat tradisional.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/i8jz5IiFIKY?si=YB7gUPGUwiL34F7b" 
         }
       ],
       food: [
         { 
           name: "Gohu Ikan", 
           desc: "Sashimi Ternate.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Gohu_Ikan_in_Ternate.jpg",
+          resep: "https://cookpad.com/id/resep/24814770" 
         }
       ],
       arts: [
         { 
           name: "Tari Soya-soya", 
           desc: "Tari penyemangat pasukan.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/_9wwg5pubBA?si=Zu07rHDw7IUfho0w" 
         }
       ],
       tourism: ["Gunung Gamalama", "Danau Tolire"]
@@ -1167,32 +1168,32 @@ export const provincesData = [
     name: "Papua",
     region: "Papua",
     capital: "Jayapura",
-    coverImg: "https://images.unsplash.com/photo-1598896537224-108629c28862?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://www.batiqa.com/upload/news/l/ilustrasi-kota-jayapura_z4fo6.jpg",
     desc: "Bumi Cenderawasih di utara.",
     story: "Provinsi induk di tanah Papua. Danau Sentani yang indah dan budaya maritim yang kuat menjadi ciri khasnya.",
     details: {
-      house: { name: "Kariwari", desc: "Rumah adat Suku Tobati/Enggros.", img: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Kariwari.jpg" },
-      clothing: { name: "Koteka/Rok Rumbai", desc: "Pakaian alami dari alam.", img: "https://images.unsplash.com/photo-1598896537224-108629c28862?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Kariwari", desc: "Rumah adat Suku Tobati/Enggros.", img: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Raiyani_Muharramah_Rumah_Karwari_Papua_DSC_8244.jpg" },
+      clothing: { name: "Koteka/Rok Rumbai", desc: "Pakaian alami dari alam.", img: "https://pariwisataindonesia.id/wp-content/uploads/2020/12/pakai-adat-rok-rumbai-papua-foto-beritapapuacom-640x426.png" },
       games: [
         { 
           name: "Patah Kaleng", 
           desc: "Lempar kaleng.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/WEfxcf7gkjk?si=weqz3hmYC7yztF2Z" 
         }
       ],
       food: [
         { 
           name: "Papeda", 
           desc: "Bubur sagu.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Papeda%2C_Kuah_Kuning%2C_Ikan_Tude_Bakar_2.jpg/250px-Papeda%2C_Kuah_Kuning%2C_Ikan_Tude_Bakar_2.jpg",
+          resep: "https://cookpad.com/id/resep/25177139" 
         }
       ],
       arts: [
         { 
           name: "Tari Yospan", 
           desc: "Tari pergaulan muda-mudi.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/Dsoq9fGNXNA?si=OTUKZm0l6tSlycrs" 
         }
       ],
       tourism: ["Danau Sentani", "Pantai Base G"]
@@ -1205,32 +1206,32 @@ export const provincesData = [
     name: "Papua Barat",
     region: "Papua",
     capital: "Manokwari",
-    coverImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Raja_Ampat%2C_Papua_Barat.jpg/1200px-Raja_Ampat%2C_Papua_Barat.jpg",
+    coverImg: "https://asset.kompas.com/crops/23FTBKokEHH4fMnNcVZTeseuXn8=/0x0:719x479/1200x800/data/photo/2021/10/31/617e75d9cabfd.jpg",
     desc: "Rumah konservasi dan sejarah Injil.",
     story: "Manokwari dikenal sebagai Kota Injil. Provinsi ini memiliki pegunungan Arfak yang menawan dan keanekaragaman hayati tinggi.",
     details: {
-      house: { name: "Mod Aki Aksa", desc: "Rumah Kaki Seribu.", img: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rumah_Kaki_Seribu.jpg" },
-      clothing: { name: "Serui", desc: "Pakaian adat kain tenun.", img: "https://images.unsplash.com/photo-1618635221848-3a4a316f56c1?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Mod Aki Aksa", desc: "Rumah Kaki Seribu.", img: "https://cdn1-production-images-kly.akamaized.net/K49JsZgrXRSKN4gqa_z_p3xpkzg=/1280x720/smart/filters:quality(75):strip_icc()/kly-media-production/medias/5191916/original/036684100_1745051787-Rumah_Mod_Aki_Aksa.jpg" },
+      clothing: { name: "Serui", desc: "Pakaian adat kain tenun.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Y4H8_0WOexXPYfcLXByedHyGAASYow1Mjg&s" },
       games: [
         { 
           name: "Lomba Perahu", 
           desc: "Balap perahu tradisional.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/uwpbD1QJLCs?si=xeHvTAi_F-Dxpt9q" 
         }
       ],
       food: [
         { 
           name: "Ikan Kuah Kuning", 
           desc: "Sup ikan segar.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://awsimages.detik.net.id/community/media/visual/2025/03/06/resep-ikan-kuah-kuning-1741215041337_43.jpeg?w=1200",
+          resep: "https://cookpad.com/id/resep/25217166" 
         }
       ],
       arts: [
         { 
           name: "Tari Magasa", 
           desc: "Tari ular.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/dtnVjn5p-TU?si=u-U8p3_emQWTKFBL" 
         }
       ],
       tourism: ["Teluk Triton", "Pegunungan Arfak"]
@@ -1243,32 +1244,32 @@ export const provincesData = [
     name: "Papua Selatan",
     region: "Papua",
     capital: "Merauke",
-    coverImg: "https://upload.wikimedia.org/wikipedia/commons/7/7f/Merauke_Rice_Field.jpg",
+    coverImg: "https://pict.sindonews.net/dyn/850/pena/news/2024/10/10/156/1470771/titik-nol-km-merauke-destinasi-baru-di-ujung-timur-indonesia-untuk-cross-border-tourism-ssr.jpg",
     desc: "Lumbung pangan di ujung timur (Merauke).",
     story: "Disini terdapat Musamus (rumah semut) raksasa. Merauke adalah titik paling timur 'Sabang sampai Merauke'. Wilayahnya datar dan banyak rawa.",
     details: {
-      house: { name: "Gotad", desc: "Rumah Suku Marind.", img: "https://images.unsplash.com/photo-1598896537224-108629c28862?auto=format&fit=crop&w=800&q=80" }, // Placeholder generic Papua
-      clothing: { name: "Pummi", desc: "Rok rumbai sagu.", img: "https://images.unsplash.com/photo-1621746173781-62b55534234f?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Gotad", desc: "Rumah Suku Marind.", img: "https://cdn.ruparupa.io/media/tahu-asset/IMAGE_TAHU_R-1024x576_1742461798.jpeg" }, // Placeholder generic Papua
+      clothing: { name: "Pummi", desc: "Rok rumbai sagu.", img: "https://media.istockphoto.com/id/2192241743/photo/portrait-of-native-papua-women-with-traditional-face-painting.webp?a=1&b=1&s=612x612&w=0&k=20&c=mwP0_v40aTWelZwbLtInkajSDisnyYE80Wt4Eso9oNQ=" },
       games: [
         { 
           name: "Panahan", 
           desc: "Tradisi berburu.", 
-          video: "https://example.com/video" 
+          video: "https://youtube.com/shorts/JYGyDt_zTkA?si=zFT1flxhopIZPf7n" 
         }
       ],
       food: [
         { 
           name: "Sagu Sep", 
           desc: "Sagu bakar batu.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://cdn.antaranews.com/cache/1200x800/2021/08/30/Sagu-Gula-Makanan-Khas-Maluku-290821-FBA-2.jpg",
+          resep: "https://cookpad.com/id/resep/8522337p" 
         }
       ],
       arts: [
         { 
           name: "Tari Gatzi", 
           desc: "Tari Suku Marind.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/MAAzjKKVzU4?si=MaJ9sJSGIXOWv-Qf" 
         }
       ],
       tourism: ["Taman Nasional Wasur", "Tugu 0 KM Merauke"]
@@ -1281,32 +1282,32 @@ export const provincesData = [
     name: "Papua Tengah",
     region: "Papua",
     capital: "Nabire",
-    coverImg: "https://upload.wikimedia.org/wikipedia/commons/5/57/Carstensz_Pyramid_1.jpg",
+    coverImg: "https://www.hipwee.com/wp-content/uploads/2018/01/hipwee-Wisata-Nabire.jpg",
     desc: "Rumah Puncak Jaya (Salju Abadi).",
     story: "Provinsi ini memiliki puncak tertinggi di Indonesia, Carstensz Pyramid, yang tertutup salju abadi. Juga terdapat tambang emas Grasberg.",
     details: {
-      house: { name: "Honai", desc: "Rumah adat pegunungan tanpa jendela.", img: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Honai.jpg" },
-      clothing: { name: "Koteka", desc: "Penutup kemaluan pria dari labu air.", img: "https://images.unsplash.com/photo-1598896537224-108629c28862?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Honai", desc: "Rumah adat pegunungan tanpa jendela.", img: "https://awsimages.detik.net.id/community/media/visual/2017/11/20/f0e56178-555f-457e-8c0e-0e29630bfad7.jpg?w=1200" },
+      clothing: { name: "Koteka", desc: "Penutup kemaluan pria dari labu air.", img: "https://indonesiajuara.asia/wp-content/uploads/2022/09/pakaian-adat-koteka-kompasiana.webp" },
       games: [
         { 
           name: "Lempar Tombak", 
           desc: "Ketangkasan.", 
-          video: "https://example.com/video" 
+          video: "https://youtube.com/shorts/p6Ry6aXA7RA?si=EGhsNmb9OOqRH4jY" 
         }
       ],
       food: [
         { 
           name: "Ubi Bakar", 
           desc: "Makanan pokok pegunungan.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://jadesta.kemenparekraf.go.id/imgpost/124449.jpg",
+          resep: "https://cookpad.com/id/resep/24477257" 
         }
       ],
       arts: [
         { 
           name: "Tari Perang", 
           desc: "Simbol keberanian.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/jcvnsfVslmg?si=w6t6LrPU_RYh_AWP" 
         }
       ],
       tourism: ["Puncak Jaya", "Danau Paniai"]
@@ -1319,32 +1320,32 @@ export const provincesData = [
     name: "Papua Pegunungan",
     region: "Papua",
     capital: "Wamena",
-    coverImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Baliem_Valley.jpg/1200px-Baliem_Valley.jpg",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/0/08/Tugu_Salib_Wamena.jpg",
     desc: "Satu-satunya provinsi landlocked (terkurung daratan).",
     story: "Terkenal dengan Lembah Baliem dan Festival Budaya Lembah Baliem yang mendunia. Suku Dani, Lani, dan Yali mendiami wilayah ini.",
     details: {
-      house: { name: "Honai", desc: "Rumah jerami hangat.", img: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Honai.jpg" },
-      clothing: { name: "Koteka & Wah", desc: "Pakaian adat.", img: "https://images.unsplash.com/photo-1618635221848-3a4a316f56c1?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Honai", desc: "Rumah jerami hangat.", img: "https://cdn.ruparupa.io/media/tahu-asset/IMAGE_TAHU_R-1024x576_1742461798.jpeg" },
+      clothing: { name: "Koteka & Wah", desc: "Pakaian adat.", img: "https://cdn.antaranews.com/cache/1200x800/2013/07/20130704kerajinan-papua.jpg" },
       games: [
         { 
           name: "Pikon", 
           desc: "Musik dan permainan alat tiup.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/XKfh4P_YQoY?si=hEvaDggRBuw-iCaA" 
         }
       ],
       food: [
         { 
           name: "Udang Selingkuh", 
           desc: "Udang capit besar.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://www.bimoli.com/images/dapuribu/makanan-khas-papua_082140039_2.jpg",
+          resep: "https://cookpad.com/id/resep/11314097" 
         }
       ],
       arts: [
         { 
           name: "Perang Sukuan", 
           desc: "Atraksi festival budaya.", 
-          video: "https://example.com/video" 
+          video: "https://youtube.com/shorts/fQvVyAEaoxU?si=-ChWa4PRsuPvYxWr" 
         }
       ],
       tourism: ["Lembah Baliem", "Danau Habema"]
@@ -1357,32 +1358,32 @@ export const provincesData = [
     name: "Papua Barat Daya",
     region: "Papua",
     capital: "Sorong",
-    coverImg: "https://images.unsplash.com/photo-1515876305430-10695318ee19?auto=format&fit=crop&w=1200&q=80",
+    coverImg: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Sorong_view-1.jpg",
     desc: "Gerbang menuju Surga Raja Ampat.",
     story: "Provinsi termuda (ke-38). Wilayah ini adalah pintu gerbang utama menuju Raja Ampat, destinasi selam terbaik di dunia.",
     details: {
-      house: { name: "Rumah Kaki Seribu", desc: "Rumah panggung kayu tinggi.", img: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rumah_Kaki_Seribu.jpg" },
-      clothing: { name: "Kain Rumput", desc: "Anyaman rumput kering.", img: "https://images.unsplash.com/photo-1598896537224-108629c28862?auto=format&fit=crop&w=400&q=80" },
+      house: { name: "Rumah Kaki Seribu", desc: "Rumah panggung kayu tinggi.", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpvLOs1l-9dhdRG_6E5m_tpFPtKgRnzcCo6g&s" },
+      clothing: { name: "Kain Rumput", desc: "Anyaman rumput kering.", img: "https://ewr1.vultrobjects.com/suarapapuaweb/2020/06/IMG_20200625_085354.jpg" },
       games: [
         { 
           name: "Lomba Dayung", 
           desc: "Tradisi pesisir.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/LpHmnJYOBGg?si=6Y_nm-UzH-ZNHgKL" 
         }
       ],
       food: [
         { 
           name: "Sate Ulat Sagu", 
           desc: "Sumber protein tinggi.", 
-          img: "https://images.unsplash.com/photo-1551218808-94e220e084d2?auto=format&fit=crop&w=300&q=80",
-          resep: "https://example.com/resep" 
+          img: "https://bknpdiperjuangan.id/wp-content/uploads/2023/02/Sate-Ulat-Sagu-Khas-Papua.jpg",
+          resep: "https://kulinernusantara.mystrikingly.com/blog/resep-membuat-sate-ulat-sagu-khas-papua" 
         }
       ],
       arts: [
         { 
           name: "Tari Suanggi", 
           desc: "Tari roh halus.", 
-          video: "https://example.com/video" 
+          video: "https://youtu.be/REG9zLVgeWA?si=Y1ETrWm49FbBph0T" 
         }
       ],
       tourism: ["Raja Ampat", "Taman Burung Aimas"]

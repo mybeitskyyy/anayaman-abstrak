@@ -15,7 +15,7 @@ const About = () => (
           <Globe size={32} color="var(--accent)" /> Misi Kami
         </h2>
         <p className="article-text">
-          Indonesia adalah zamrud khatulistiwa dengan ribuan pulau dan budaya. <strong>Nusantara Project</strong> hadir untuk mendokumentasikan kekayaan kuliner, seni, dan tradisi dari Sabang sampai Merauke.
+          Indonesia adalah zamrud khatulistiwa dengan ribuan pulau dan budaya. <strong>Nusantara</strong> yang di buat oleh Anyaman Abstrak adalah sebuah platform digital yang hadir untuk mendokumentasikan kekayaan kuliner, seni, dan tradisi dari Sabang sampai Merauke.
         </p>
       </div>
       
