@@ -13,6 +13,18 @@
   --radius: 24px;
 }
 
+.dark {
+  --primary: #D4AF37;
+  --secondary: #C67C4E;
+  --accent: #E5B97B;
+  --bg-body: #111111;
+  --bg-surface: #1E1E1E;
+  --text-main: #EAEAEA;
+  --text-muted: #A0A0A0;
+  --shadow-soft: 0 10px 40px -10px rgba(0,0,0,0.6);
+  --shadow-hover: 0 20px 50px -10px rgba(0,0,0,0.75);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +38,10 @@ body {
   background-image: radial-gradient(#E0E0E0 1px, transparent 1px);
   background-size: 40px 40px;
   overflow-x: hidden;
+}
+
+.dark body {
+  background-image: none;
 }
 
 h1,
@@ -94,6 +110,11 @@ h4 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   padding: 1rem 0;
   transition: 0.3s;
+}
+
+.dark .navbar {
+  background: rgba(30, 30, 30, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .nav-content {
@@ -414,7 +435,7 @@ h4 {
 }
 
 .article-card {
-  background: white;
+  background: var(--bg-surface);
   padding: 2rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow-soft);
@@ -541,7 +562,7 @@ h4 {
 }
 
 .game-card {
-  background: white;
+  background: var(--bg-surface);
   padding: 1.5rem;
   border-radius: 16px;
   border: 1px solid #eee;
@@ -596,11 +617,71 @@ h4 {
 }
 
 .sidebar-card {
-  background: white;
+  background: var(--bg-surface);
   padding: 2rem;
   border-radius: var(--radius);
   box-shadow: var(--shadow-soft);
   text-align: center;
+}
+
+/* Map */
+.map-wrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.map-card {
+  background: var(--bg-surface);
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+  padding: 1rem;
+}
+
+.map-svg {
+  width: 100%;
+  height: 520px;
+}
+
+.region-shape {
+  stroke: #888;
+  stroke-width: 1;
+  fill: #EFE8E1;
+  transition: 0.2s;
+}
+
+.dark .region-shape {
+  fill: #2a2a2a;
+  stroke: #555;
+}
+
+.region-shape:hover {
+  fill: var(--secondary);
+  cursor: pointer;
+}
+
+.province-list {
+  background: var(--bg-surface);
+  border-radius: 16px;
+  box-shadow: var(--shadow-soft);
+  padding: 1rem;
+}
+
+.province-item {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--text-main);
+}
+
+.province-item:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+.dark .province-item:hover {
+  background: rgba(255,255,255,0.06);
 }
 
 .info-row {

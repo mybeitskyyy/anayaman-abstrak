@@ -1,9 +1,23 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { MapPin, Menu, X } from 'lucide-react';
+import { MapPin, Menu, X, Moon, Sun } from 'lucide-react';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const [dark, setDark] = useState(() => {
+        const saved = localStorage.getItem('theme');
+        return saved ? saved === 'dark' : false;
+    });
+    useEffect(() => {
+        const root = document.documentElement;
+        if (dark) {
+            root.classList.add('dark');
+            localStorage.setItem('theme', 'dark');
+        } else {
+            root.classList.remove('dark');
+            localStorage.setItem('theme', 'light');
+        }
+    }, [dark]);
     return (
         <nav className="navbar">
             <div className="container nav-content px-[15px]">
@@ -42,6 +56,26 @@ const Navbar = () => {
                         Tentang
                     </NavLink>
                     {/* <a href="#footer" onClick={() => setIsOpen(false)}>Kontak</a> */}
+                    <NavLink
+                        to="/peta"
+                        onClick={() => setIsOpen(false)}
+                        className={({ isActive }) =>
+                            `no-underline font-semibold transition-all py-2 rounded-full ${
+                                isActive ? 'text-amber-900' : 'text-amber-900/50'
+                            }`
+                        }
+                    >
+                        Peta
+                    </NavLink>
+                    <button
+                        className="btn"
+                        aria-label="Toggle tema"
+                        onClick={() => setDark((v) => !v)}
+                        style={{ padding: '8px 14px', borderRadius: '999px' }}
+                    >
+                        {dark ? <Sun size={18} /> : <Moon size={18} />}
+                        {dark ? 'Terang' : 'Gelap'}
+                    </button>
                 </div>
             </div>
         </nav>
