@@ -107,7 +107,7 @@ const ProvinceDetail = () => {
                 loading="lazy"
                 decoding="async"
                 onLoad={() => setClothingLoaded(true)}
-                className={`transition-opacity duration-300 ${clothingLoaded ? 'opacity-100' : 'opacity-0'} object-contain w-[200px] h-[300px] rounded-lg`}
+                className={`clothing-img transition-opacity duration-300 ${clothingLoaded ? 'opacity-100' : 'opacity-0'}`}
               />
               <div className="clothing-text">
                 <h3>{data.details.clothing.name}</h3>
